@@ -1,0 +1,44 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="{{ "/" | relURL }}" class="footer-logo">
+          <img src="/images/medkorrekt_logo.png" alt="{{ .Site.Params.businessName }}" class="footer-logo-image">
+        </a>
+        <p class="footer-tagline">{{ .Site.Params.tagline }}</p>
+        <p class="footer-description">{{ .Site.Params.description }}</p>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Navigation</h4>
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Kontakt</h4>
+        <ul>
+          <li>{{ .Site.Params.owner }}</li>
+          <li>
+            <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+          </li>
+          <li>
+            <a href="tel:{{ .Site.Params.phone | replaceRE "[^+0-9]" "" }}">{{ .Site.Params.phone }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ now.Year }} {{ .Site.Params.businessName }}. Alle Rechte vorbehalten.</p>
+      <nav class="footer-legal" aria-label="Rechtliches">
+        {{ range .Site.Menus.footer }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    </div>
+  </div>
+</footer>

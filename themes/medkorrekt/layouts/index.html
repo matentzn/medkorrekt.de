@@ -1,0 +1,133 @@
+{{ define "main" }}
+{{/* Hero Section */}}
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-eyebrow">{{ .Site.Params.owner }}</p>
+      <h1 class="hero-title">{{ .Site.Params.tagline }}</h1>
+      <p class="hero-subtitle">{{ .Site.Params.description }}</p>
+      <div class="hero-cta">
+        <a href="{{ "/lektorat" | relURL }}" class="btn btn-primary">Leistungen ansehen</a>
+        <a href="{{ "/kontakt" | relURL }}" class="btn btn-secondary">Kontakt aufnehmen</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      {{ partial "icons/hero-graphic.html" . }}
+    </div>
+  </div>
+</section>
+
+{{/* Services Overview */}}
+<section class="section services-section" id="leistungen">
+  <div class="container">
+    <header class="section-header">
+      <h2>Meine Leistungen</h2>
+      <p>Professionelles Lektorat und Korrektorat für medizinische und psychologische Fachtexte.</p>
+    </header>
+
+    <div class="services-grid">
+      <article class="service-card">
+        <div class="service-icon">
+          {{ partial "icons/edit.html" . }}
+        </div>
+        <h3>Wissenschaftslektorat</h3>
+        <p>Redaktionelle Überarbeitung medizinischer Publikationen wie Fachartikel, Lehrbücher, Qualifizierungsschriften, Lexika und Ratgeber.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">
+          {{ partial "icons/translate.html" . }}
+        </div>
+        <h3>Übersetzungslektorat</h3>
+        <p>Fachliche und sprachliche Überprüfung von Übersetzungen im Bereich Medizin und Psychologie.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">
+          {{ partial "icons/megaphone.html" . }}
+        </div>
+        <h3>Werbelektorat</h3>
+        <p>Lektorat von Werbetexten und Marketingmaterialien für das Gesundheitswesen.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">
+          {{ partial "icons/check.html" . }}
+        </div>
+        <h3>Korrektorat</h3>
+        <p>Überprüfung von Rechtschreibung, Zeichensetzung und formalen Aspekten Ihrer Texte.</p>
+      </article>
+    </div>
+
+    <div class="section-cta" style="text-align: center; margin-top: var(--space-10);">
+      <a href="{{ "/lektorat" | relURL }}" class="btn btn-outline">Mehr erfahren</a>
+    </div>
+  </div>
+</section>
+
+{{/* Target Groups */}}
+<section class="section alt-bg" id="zielgruppen">
+  <div class="container">
+    <header class="section-header">
+      <h2>Für wen ich arbeite</h2>
+      <p>Meine Dienstleistungen richten sich an verschiedene Zielgruppen im Gesundheits- und Wissenschaftsbereich.</p>
+    </header>
+
+    <div class="target-groups">
+      <div class="target-group">
+        <div class="target-group-icon">
+          {{ partial "icons/building.html" . }}
+        </div>
+        <div>
+          <h4>Unternehmen des Gesundheitswesens</h4>
+          <p>Pharmaunternehmen, Medizintechnik, Krankenhäuser und Institutionen</p>
+        </div>
+      </div>
+
+      <div class="target-group">
+        <div class="target-group-icon">
+          {{ partial "icons/university.html" . }}
+        </div>
+        <div>
+          <h4>Wissenschaftliche Einrichtungen</h4>
+          <p>Universitäten, Forschungsinstitute und medizinische Fakultäten</p>
+        </div>
+      </div>
+
+      <div class="target-group">
+        <div class="target-group-icon">
+          {{ partial "icons/book.html" . }}
+        </div>
+        <div>
+          <h4>Verlage</h4>
+          <p>Buch- und Zeitschriftenverlage im medizinischen Bereich</p>
+        </div>
+      </div>
+
+      <div class="target-group">
+        <div class="target-group-icon">
+          {{ partial "icons/user.html" . }}
+        </div>
+        <div>
+          <h4>Privatpersonen</h4>
+          <p>Wissenschaftler, Ärzte, Doktoranden und Studierende</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* CTA Section */}}
+<section class="section cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Interesse geweckt?</h2>
+      <p>Ich freue mich auf Ihre Anfrage und erstelle Ihnen gerne ein individuelles Angebot.</p>
+      <div class="cta-buttons">
+        <a href="{{ "/kontakt" | relURL }}" class="btn btn-primary btn-large">Kontakt aufnehmen</a>
+        <a href="mailto:{{ .Site.Params.email }}" class="btn btn-secondary btn-large">E-Mail schreiben</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,3 @@
+- stick the logo medkorrekt_logo.png in the right place
+- analyse the colour scheme of the logo and adjust the look and feel fo the website to follow that colour scheme
+- if you can, at all, produce a higher res version of the logo then please do.

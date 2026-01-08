@@ -1,0 +1,106 @@
+baseURL = "https://medkorrekt.de/"
+languageCode = "de"
+title = "MedKorrekt | Fachlektorat für Medizin und Psychologie"
+theme = "medkorrekt"
+
+# Build settings
+enableRobotsTXT = true
+enableGitInfo = false
+
+# Pagination
+[pagination]
+  pagerSize = 10
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Menu configuration
+[menus]
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+  [[menus.main]]
+    name = "Profil"
+    pageRef = "/profil"
+    weight = 20
+  [[menus.main]]
+    name = "Lektorat"
+    pageRef = "/lektorat"
+    weight = 30
+  [[menus.main]]
+    name = "Korrektorat"
+    pageRef = "/korrektorat"
+    weight = 40
+  [[menus.main]]
+    name = "Preise"
+    pageRef = "/preise"
+    weight = 50
+  [[menus.main]]
+    name = "Kontakt"
+    pageRef = "/kontakt"
+    weight = 60
+
+  [[menus.footer]]
+    name = "Impressum"
+    pageRef = "/impressum"
+    weight = 10
+  [[menus.footer]]
+    name = "Kontakt"
+    pageRef = "/kontakt"
+    weight = 20
+
+# Site parameters
+[params]
+  # Business info
+  businessName = "MedKorrekt"
+  tagline = "Fachlektorat für Medizin und Psychologie"
+  description = "Professionelles Lektorat und Korrektorat für medizinische und psychologische Fachtexte. Wissenschaftslektorat, Übersetzungslektorat, Werbelektorat und Korrektorat."
+  owner = "Dr. med. Silvia Matentzoglu"
+
+  # Contact
+  email = "info@medkorrekt.de"
+  phone = "+49 (0) 170 9883571"
+  location = "Deutschland"
+
+  # SEO
+  author = "Dr. med. Silvia Matentzoglu"
+  keywords = ["Lektorat", "Korrektorat", "Medizin", "Psychologie", "Wissenschaftslektorat", "Fachlektorat", "medizinisches Lektorat"]
+
+  # Brand colors (based on MedKorrekt logo)
+  [params.colors]
+    primary = "#1ab3a6"      # Teal (from logo)
+    secondary = "#5c5c5c"    # Gray (from logo)
+    accent = "#1ab3a6"       # Teal accent
+    background = "#f7fafc"   # Light gray
+    surface = "#ffffff"      # White
+    text = "#1a202c"         # Near black
+    textLight = "#718096"    # Medium gray
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS"]
+
+# Sitemap
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# Privacy settings
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
+    anonymizeIP = true
+    respectDoNotTrack = true
