@@ -13,7 +13,7 @@
         <h4>Navigation</h4>
         <ul>
           {{ range .Site.Menus.main }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
       </div>
@@ -36,7 +36,7 @@
       <p>&copy; {{ now.Year }} {{ .Site.Params.businessName }}. Alle Rechte vorbehalten.</p>
       <nav class="footer-legal" aria-label="Rechtliches">
         {{ range .Site.Menus.footer }}
-        <a href="{{ .URL }}">{{ .Name }}</a>
+        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
         {{ end }}
       </nav>
     </div>

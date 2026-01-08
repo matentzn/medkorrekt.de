@@ -12,7 +12,7 @@
       <ul class="nav-list">
         {{ range .Site.Menus.main }}
         <li class="nav-item">
-          <a href="{{ .URL }}" class="nav-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
+          <a href="{{ .URL | relURL }}" class="nav-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
             {{ .Name }}
           </a>
         </li>
