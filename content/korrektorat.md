@@ -3,11 +3,7 @@ title: "Korrektorat"
 description: "Professionelles Korrektorat für medizinische und psychologische Texte"
 ---
 
-## Korrektorat
-
-Das Korrektorat umfasst die formale Überprüfung Ihrer Texte:
-
-### Leistungen
+## Leistungen
 
 - **Rechtschreibung und Zeichensetzung** - Überprüfung auf orthografische und Interpunktionsfehler
 
@@ -20,14 +16,11 @@ Das Korrektorat umfasst die formale Überprüfung Ihrer Texte:
   - Aufzählungen
   - und weitere formale Elemente
 
-### Layoutkontrolle
+## Layoutkontrolle
 
-Zusätzlich biete ich eine Layoutkontrolle an:
 - Schriftart und Schriftgröße
 - Zeilenabstände
 - Überschriftenhierarchie
 - Einheitlichkeit von Tabellen- und Bildunterschriften
 
 ---
-
-*Das Korrektorat erfolgt auf dem Papier oder am Bildschirm.*
