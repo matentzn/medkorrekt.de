@@ -56,8 +56,8 @@ enableGitInfo = false
 [params]
   # Business info
   businessName = "MedKorrekt"
-  tagline = "Fachlektorat für Medizin und Psychologie"
-  description = "Professionelles Lektorat und Korrektorat für medizinische und psychologische Fachtexte. Wissenschaftslektorat, Übersetzungslektorat, Werbelektorat und Korrektorat."
+  tagline = "Fachlektorat für Medizin&nbsp;und&nbsp;Psychologie"
+  description = "Professionelles Lektorat für medizinische und psychologische Fachtexte. Wissenschaftslektorat und Übersetzungslektorat."
   owner = "Dr. med. Silvia Matentzoglu"
 
   # Contact

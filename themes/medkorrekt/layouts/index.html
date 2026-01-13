@@ -4,7 +4,7 @@
   <div class="container">
     <div class="hero-content">
       <p class="hero-eyebrow">{{ .Site.Params.owner }}</p>
-      <h1 class="hero-title">{{ .Site.Params.tagline }}</h1>
+      <h1 class="hero-title">{{ .Site.Params.tagline | safeHTML }}</h1>
       <p class="hero-subtitle">{{ .Site.Params.description }}</p>
       <div class="hero-cta">
         <a href="{{ "/lektorat" | relURL }}" class="btn btn-primary">Leistungen ansehen</a>
@@ -22,7 +22,7 @@
   <div class="container">
     <header class="section-header">
       <h2>Meine Leistungen</h2>
-      <p>Professionelles Lektorat und Korrektorat für medizinische und psychologische Fachtexte.</p>
+      <p>Professionelles Lektorat für medizinische und psychologische Fachtexte.</p>
     </header>
 
     <div class="services-grid">
@@ -40,14 +40,6 @@
         </div>
         <h3>Übersetzungslektorat</h3>
         <p>Fachliche und sprachliche Überprüfung von Übersetzungen im Bereich Medizin und Psychologie.</p>
-      </article>
-
-      <article class="service-card">
-        <div class="service-icon">
-          {{ partial "icons/megaphone.html" . }}
-        </div>
-        <h3>Werbelektorat</h3>
-        <p>Lektorat von Werbetexten und Marketingmaterialien für das Gesundheitswesen.</p>
       </article>
 
       <article class="service-card">

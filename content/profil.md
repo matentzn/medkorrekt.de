@@ -12,18 +12,18 @@ layout: "profil"
 
 ### Vita
 
-- Studium der Philosophie und Germanistik an der Rheinisch-Westfälisch-Technischen Hochschule (RWTH) Aachen
+- Studium der Philosophie und Germanistik an der RWTH Aachen
 
 - Studium der Medizin an der RWTH Aachen
 
-- Ärztliche Psychotherapeutin in Klinik und Praxis, Aachen
+- Ärztliche Psychotherapeutin in Klinik und Praxis
 
-- Dokumentationsärztin und wissenschaftliche Mitarbeiterin in onkologischem Forschungsprojekt, Tumorzentrum Aachen
+- Dokumentationsärztin und wissenschaftliche Mitarbeiterin in onkologischem Forschungsprojekt
 
 - Fortbildung zur Wissenschaftsredakteurin am [mibeg-Institut Medizin](http://www.mibeg.de/), Köln
 
-- Freie Mitarbeiterin im [Lektoratsbüro Maria Fuchs](http://www.fuchs-lektorat.de/), Brühl
+- Freie Mitarbeiterin im Lektoratsbüro Maria Fuchs, Brühl
 
-- Studienärztin in der [Herniamed-Studie](http://www.herniamed.de/), Abteilung Allgemein- und Visceralchirurgie, Vivantes Klinikum Spandau
+- Studienärztin in der [Herniamed-Studie](http://www.herniamed.de/), Vivantes Klinikum Spandau
 
-- Promotion: ["Zur Psychopathologie in den hippokratischen Schriften"](http://www.opus.ub.uni-erlangen.de/opus/volltexte/2011/2537/)
+- Promotion: [_Zur Psychopathologie in den hippokratischen Schriften_](https://katalog.dnb.de/DE/resource.html?id=101146392X)
