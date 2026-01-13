@@ -17,10 +17,10 @@ Wenn Sie einen detaillierten Kostenvoranschlag wünschen, schicken Sie mir bitte
 
 | Leistung | Preis |
 |----------|-------|
-| **Lektorat** (Zeichenhonorar) | ab 7,50 € pro 1000 Zeichen inkl. Leerzeichen |
-| **Korrektorat** (Zeichenhonorar) | ab 3,60 € pro 1000 Zeichen inkl. Leerzeichen |
+| **Lektorat** (Zeichenhonorar) | ab 8,50 € pro 1000 Zeichen inkl. Leerzeichen |
+| **Korrektorat** (Zeichenhonorar) | ab 5,50 € pro 1000 Zeichen inkl. Leerzeichen |
 | **Lektorat** (Stundenhonorar) | 60 €/h |
-| **Korrektorat** (Stundenhonorar) | ab 28 €/h |
+| **Korrektorat** (Stundenhonorar) | ab 35 €/h |
 
 **Seitenhonorare:** pro Normseite (ca. 1500–1650 Zeichen)
 
